@@ -1,7 +1,7 @@
 {
   "name": "random-messages-pruebas",
   "version": "1.0.0",
-  "description": "random de mensajes",
+  "description": "PAQUETE QUE MUESTRA UNOS NOMBRES AL AZAR",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,15 @@
   "author": "Ivan Rojo <ivanrojo07@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanrojo07/random-messages-prueba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanrojo07/random-messages-prueba/issues"
+  },
+  "homepage": "https://github.com/ivanrojo07/random-messages-prueba#readme"
 }
